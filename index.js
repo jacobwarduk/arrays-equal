@@ -3,7 +3,7 @@ function strictArrayEquals(arr1, arr2) {
     return false;
   }
 
-  arr1.every(function(item, index) {
+  return arr1.every(function(item, index) {
     return item === arr2[index];
   });
 }
