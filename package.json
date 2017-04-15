@@ -1,0 +1,39 @@
+{
+  "name": "strict-array-equals",
+  "version": "1.0.0",
+  "description": "Shallow check two arrays for strict equality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwarduk/strict-array-equals.git"
+  },
+  "keywords": [
+    "strict",
+    "array",
+    "check",
+    "equals"
+  ],
+  "author": "Jacob Ward",
+  "email": "jacob@riino.co.uk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobwarduk/strict-array-equals/issues"
+  },
+  "homepage": "https://github.com/jacobwarduk/strict-array-equals#readme",
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-browserify": "^5.1.1",
+    "karma-cli": "^1.0.1",
+    "karma-commonjs": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "requirejs": "^2.3.3",
+    "watchify": "^3.9.0"
+  }
+}
