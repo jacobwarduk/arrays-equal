@@ -2,6 +2,13 @@
 
 Shallow check two arrays for strict equality
 
+**Installation**
+
+```
+npm install --save strict-array-equals
+```
+
+
 **Usage**
 
 ```javascript
