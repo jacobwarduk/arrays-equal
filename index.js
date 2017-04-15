@@ -1,3 +1,5 @@
+'use strict';
+
 function strictArrayEquals(arr1, arr2) {
   if (!Array.isArray(arr1) || !Array.isArray(arr2) || arr1.length !== arr2.length) {
     return false;
