@@ -26,8 +26,8 @@
   "devDependencies": {
     "browserify": "^14.3.0",
     "jasmine": "^2.5.3",
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.6.0",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.7.0",
     "karma-browserify": "^5.1.1",
     "karma-cli": "^1.0.1",
     "karma-commonjs": "^1.0.0",
