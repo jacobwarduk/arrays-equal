@@ -14,7 +14,7 @@ npm install --save strict-array-equals
 **Usage**
 
 ```javascript
-let strictArrayEquals = require('strict-array-equals');
+const strictArrayEquals = require('strict-array-equals');
 
 strictArrayEquals(['a', 23], ['a', 23]);  // true
 strictArrayEquals(['a', 23], [23, 'a']);  // false
