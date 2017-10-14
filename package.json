@@ -4,7 +4,8 @@
   "description": "Shallow check two arrays for strict equality",
   "main": "index.js",
   "scripts": {
-    "test": "xo && jasmine"
+    "test": "xo && jasmine",
+    "cover": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
