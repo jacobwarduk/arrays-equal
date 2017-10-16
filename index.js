@@ -5,7 +5,7 @@ function strictArrayEquals(arr1, arr2) {
 		return false;
 	}
 
-	return arr1.every((item, index) => item === arr2[index]);
+	return arr1.every((item, index) => JSON.stringify(item) === JSON.stringify(arr2[index]));
 }
 
 module.exports = strictArrayEquals;
